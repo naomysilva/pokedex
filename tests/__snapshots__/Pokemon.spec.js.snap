@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon.vue renders correctly 1`] = `
+<div
+  class="container"
+>
+  <h1>
+    Pokemon's
+  </h1>
+  <pokemon-search-stub
+    apiurl="https://pokeapi.co/api/v2/pokemon/"
+  />
+  <pokemon-list-stub
+    apiurl="https://pokeapi.co/api/v2/pokemon/"
+    imageurl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
+  />
+  <!--v-if-->
+</div>
+`;
